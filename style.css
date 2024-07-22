@@ -53,3 +53,105 @@
     height: 50px;
  } 
  .bl{color: blue;}
+ .toppic1{
+  position: relative;
+}
+.top{
+ width: 100%;
+}
+.btn1{
+  background-color: rgb(9, 123, 168);
+  color: white;
+  border-radius: 40px;
+  border: 0px;
+  padding: 14px 25px;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  font-size: large;
+  
+}
+.btn2{
+  position: absolute;
+  background-color:black;
+  color: rgb(25, 102, 153);
+  border: 1px solid rgb(21, 116, 160);
+  top: 25%;
+  left: 52%;
+  border-radius: 40px;
+  padding: 14px 25px;
+  font-size: large;
+  
+
+}
+.btn2:hover{
+  color: white;
+  background-color: rgb(34, 123, 158);
+}
+.top2{
+  position: relative;
+}
+.scnd{
+  width: 100%;
+
+}
+
+.sbtn1{
+  background-color: rgb(9, 123, 168);
+  color: white;
+  border-radius: 40px;
+  border: 0px;
+  padding: 14px 25px;
+  position: absolute;
+  top: 27%;
+  left: 42%;
+  font-size: large;
+  
+}
+.sbtn2{
+  position: absolute;
+  background-color:rgb(233, 233, 233);
+  color: rgb(25, 102, 153);
+  border: 1px solid rgb(21, 116, 160);
+  top: 27%;
+  left: 52%;
+  border-radius: 40px;
+  padding: 14px 25px;
+  font-size: large;
+  
+
+}
+.sbtn2:hover{
+  color: white;
+  background-color: rgb(34, 123, 158);
+}
+.top3{
+  position: relative;
+}
+.thrd{
+  width: 100%;
+}
+.sb1{
+  background-color: rgb(228, 227, 227);
+  color: rgb(27, 161, 161);
+  border: 1px solid rgb(32, 132, 172);
+  border-radius: 40px;
+  padding: 14px 25px;
+  position: absolute;
+  top: 700px;
+  left: 48%;
+  font-size: large;
+}
+.sb1:hover{
+  background-color: rgb(28, 138, 165);
+  color: white;
+
+}
+.box1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.box11{
+ 
+  width: 50%;
+}
