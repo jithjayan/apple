@@ -1,14 +1,17 @@
+
 .nav{
+      
       list-style-type: none;
       margin:0;
       padding:0;
       width: 100%;
       overflow: hidden;
-      background-color: #0f0f0fa8;
+      background-color: #000000;
       display: flex;
       justify-content: center;
       color: aliceblue;
-      /* z-index: 100; */
+      z-index: 100;
+
      
 }
 .n0{
@@ -152,6 +155,184 @@
   grid-template-columns: auto auto;
 }
 .box11{
+ position: relative;
+
+}
+.zbtn1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+  border: 0px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font-size: small;
+  
+}
+.zbtn2{
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  border: .5px solid rgb(255, 255, 255);
+  top: 25%;
+  left: 48%;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: small;
+  
+
+}
+.zbtn2:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.xbtn1{
+  background-color: rgb(26, 110, 221);
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 0px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 27%;
+  left: 42%;
+  font-size: small;
+  
+}
+.ybtn1{
+  background-color: rgb(0, 147, 206);
+  color: rgb(252, 252, 252);
+  border-radius: 40px;
+  border: 0px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  font-size: small;
+  
+}
+.ybtn2{
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0);
+  color: rgb(10, 158, 216);
+  border: .5px solid  rgb(10, 158, 216);
+  top: 27%;
+  left: 53%;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: small;
+  
+
+}
+.ybtn2:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 158, 216);
+}
+.abtn1{
+  background-color: rgb(0, 147, 206);
+  color: rgb(252, 252, 252);
+  border-radius: 40px;
+  border: 0px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  font-size: small;
+  
+}
+.abtn2{
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0);
+  color: rgb(10, 158, 216);
+  border: .5px solid  rgb(10, 158, 216);
+  top: 27%;
+  left: 53%;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: small;
+  
+
+}
+.abtn2:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 158, 216);
+}
+
+/* .video{
+  padding-top: 45px;
+  width: 100%;
+  height: 150px;
+  position: relative;
+} */
+ .pg{
+  background-color: rgba(177, 177, 177, 0.253);
+ }
  
+.prag{
+  color: #303233a6;
+  font-size: smaller;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin: 20px 490px 20px 490px;
+
+
+}
+
+.note li{
+  margin-top:8px;
+}
+.note{
+ 
+  display: flex;
+  white-space: nowrap;
+  padding: 15px;
+  /* background-color: #ffffff; */
+  padding-left: 80px;
+  margin: auto;
   width: 50%;
+  position: relative;
+  text-align: center;
+  font-size: smaller;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  list-style-type:none ;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-style: solid none none none;
+  border-color: #353f4454;border-width: 1px;
+  
+}
+.note div{
+  flex-grow: 1;
+  width: 20%;
+  height: auto;
+}
+.note h3{
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 600;
+  margin-bottom: .8em;
+  margin-inline-end: 20px;
+  outline: none;
+}
+.note ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.note ul li{
+  
+  padding-top: 5px;
+  text-align: left;
+}
+.a13{
+  text-decoration: none;
+  color: #303233;
+  position: relative;
+}
+.a13:hover{
+  text-decoration: underline;
+  color: #303233;
 }
